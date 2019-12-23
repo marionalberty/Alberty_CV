@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rishi Shah 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+% Use multiple bibs
+\usepackage[resetlabels]{multibib}
+\newcites{peer}{Peer Reviewed Pubs}
+\newcites{unref}{Unrefereed Pubs}
+% Document Information
+\name{Marion S Alberty}
+\address{201 Forrestal Road, Princeton, NJ 08542} % primary address
+\address{(+1) 330-259-5864 \\ \href{mailto:malberty@princeton.edu}{malberty@princeton.edu} \\ \href{mailto:marion.s.alberty@gmail.com}{marion.s.alberty@gmail.com}}
+\begin{document}
+
+%-------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------
+\begin{rSection}{Education}
+{\bf University of California San Diego (UCSD)} \hfill {\em Aug 2012 - Dec 2018}\\
+{\bf Scripps Institution of Oceanography (SIO), La Jolla, CA} \\ Ph.D. in Oceanography \\
+\\
+{\bf Cornell University, Ithaca, NY} \hfill {\em Aug 2008 - May 2012} \\
+B.Sc. in Civil \& Environmental Engineering
+\end{rSection}
+
+%-------------------------------------------------------------------
+%	WORK SECTION
+%-------------------------------------------------------------------
+\begin{rSection}{Appointments}
+{\bf Postdoctoral Research Associate} \hfill {\em Feb 2019 - present}\\
+Geophysical Fluid Dynamics Laboratory, Atmospheric and Oceanic Sciences, Princeton University, Princeton, NJ \\
+{\bf Graduate Student Researcher} \hfill {\em Jul-Aug 2012}\\
+Send Lab, SIO, La Jolla, CA \\
+{\bf Undergraduate Student Researcher} \hfill {\em Aug 2011 - May 2012}\\
+Cowen Lab, Cornell University, Ithaca, NY
+\end{rSection}
+
+% \begin{rSection}{Mentors}
+% {\bf Postdoc Advisors:} Prof. Sonya Legg (Princeton University) \& Dr. Robert Hallberg (NOAA GFDL) \\
+% {\bf Graduate Advisors:} Dr. Janet Sprintall (SIO), Prof. Jennifer MacKinnon (SIO-UCSD), \& Prof. Alexandre Ganachaud (LEGOS) \\
+% {\bf Undergraduate Advisor:} Prof. Peter Diamessis (Cornell University) \\
+% {\bf Undergraduate Research Advisors:} Prof. Edwin Cowen (Cornell University) \& Dr. Alexandra King (Cornell University)
+% \end{rSection}
+
+\begin{rSection}{Honors and Awards}
+Wyer Family Fellowship \hfill {\em Sep 2017 - Dec 2018} \\
+NASA Earth and Space Fellowship \hfill {\em Sep 2016 - Dec 2018} \\
+Dr. John Roads Endowed Fellowship \hfill {\em Sep 2015 - Aug 2016} \\
+STEM Chateaubriand Fellow at Laboratoire d’Etudes en \hfill {\em Jan - Jul 2015} \\
+G\'eophysique et Oc\'eanographie Spatiales (LEGOS), Toulouse, France \\
+UC Regents First-Year Fellowship, George Mitchell \hfill {\em Sep 2012 - Aug 2013} \\
+Fellowship \& Arete Associates - Jacobs Fellowship \\
+Engineering Learning Initiatives Undergraduate Research Award \hfill {\em Aug 2011 - May 2012}
+\end{rSection}
+
+%-------------------------------------------------------------------
+%    Publications
+%-------------------------------------------------------------------
+\begin{rSection}{Peer-Reviewed Publications}
+\href{https://scholar.google.com/citations?user=UGkNcW8AAAAJ&hl=en&oi=sra}{Link to google scholar page}
+\begingroup
+\renewcommand{\section}[2]{}
+\nocitepeer{*}
+\bibliographystylepeer{plainyr-rev}
+\bibliographypeer{AlbertyPeerBib}
+\endgroup
+\end{rSection}
+
+\begin{rSection}{Unrefereed Publications}
+\begingroup
+\renewcommand{\section}[2]{}
+\nociteunref{*}
+\bibliographystyleunref{plainyr-rev}
+\bibliographyunref{AlbertyUnrefBib}
+\endgroup
+\end{rSection}
+
+%-------------------------------------------------------------------
+%	Conferences and Meetings
+%-------------------------------------------------------------------
+\begin{rSection}{Conferences and Meetings} 
+\item Alberty, M., J. MacKinnon, \& J. Sprintall, June 2018: Observations of Submesoscale Mixed Layer Processes in the Arctic (poster), Gordon Research Conference on Ocean Mixing, Andover, NH.
+\item Alberty, M., J. Sprintall, S. Cravatte, A. Ganachaud, C. Germineaud, J. MacKinnon, \& G. Eldin, February 2018: Moored Observations of Equatorward Transport in the Solomon Sea, 2018 Ocean Sciecenes Meeting, Portland, OR.
+\item Alberty, M., J. Sprintall, J. MacKinnon, A. Ganachaud, S. Cravatte, \& C. Germineaud, May 2017: \href{http://www.legos.obs-mip.fr/members/cravatte/alberty-talk}{Spatial Patterns of Mixing in the Solomon Sea} (plenary talk), Solomon Sea Oceanography Workshop, Toulouse, France. 
+\item Alberty, M., J. MacKinnon, \& J. Sprintall, May 2016: Observation of submesoscale features in the Canada Basin (poster), 48th Liege Colloquium on Submesoscale Processes, Liege, Belgium.
+\item Alberty, M., J. Sprintall, J. MacKinnon, A. Ganachaud, S. Cravatte, \& C. Germineaud, February 2016: Preliminary Observation of AAIW in the Solomon Sea (poster), Ocean Sciences Meeting, New Orleans, LA. 
+\item Alberty, M., J. Sprintall \& J. MacKinnon, June 2015: Spatial and Temporal Variability of Mixing in the Solomon Sea, International Union of Geodesy and Geophysics; International Association for the Physical Science of the Ocean, Prague, Czech Republic.
+\item Alberty, M., J. Sprintall \& J. MacKinnon, April 2015: Water Mass Modification through Mixing in the Solomon Sea (poster), European Geosciences Union, Vienna, Austria.
+\item Alberty, M., J. Sprintall \& J. MacKinnon, November 2014: Spatial Patterns of Mixing in the Solomon Sea, International Meeting of Students in Physical Oceanography, Ensenada, Mexico.
+\itme Alberty, M., J. Sprintall \& J. MacKinnon, June 2014: Observing Internal Waves in the Solomon Sea (poster), Nonlinear Effects in Internal Waves, Ithaca, NY.
+\item Alberty, M., \& U. Send, August 2012: Analysis of deltapCO2 Time Series in the Central California Ocean Margin (Poster), International Meeting of Students in Physical Oceanography, La Jolla, CA. 
+\end{rSection}
+
+%-------------------------------------------------------------------
+%	SERVICE SECTION
+%-------------------------------------------------------------------
+\begin{rSection}{Service}
+% Conference related
+\begin{rSubsection}{Conference Chair}
+Gordon Research Seminar on Ocean Mixing, June 2020, Manchester, NH
+\end{rSubsection}
+% Reviewer
+\begin{rSubsection}{Reviewer}
+Geophysical Research Letters, Progress in Oceanography
+\end{rSubsection}
+% Committees
+\begin{rSubsection}{Committee Member}
+\item {\em 2016}: SIO faculty search in polar sciences, student committee
+\end{rSubsection}
+% Outreach
+\begin{rSubsection}{Outreach}
+\item {\em 2019}: Math Instructor, Princeton Prison Teaching Initiative
+\item {\em 2019}: Young Women's Conference in Science, Technology, Engineering \& Mathematics, Princeton Plasma Physics Laboratory
+\item {\em 2014-2018}: Two Scientists Walk into a Bar, Reuben H. Fleet Science Center
+\item {\em 2015-2018}: Rosa Parks Tutoring Program
+\item {\em 2018}: Exploring Ocean STEM Careers Night, Birch Aquarium at Scripps Institution of Oceanography
+\item {\em 2016-2017}: Beach Science program with Birch Aquarium
+\end{rSubsection}
+% Mentorship
+\begin{rSubsection}{Mentorship}
+\item {\em 2014-2018}: Scripps Peers, peer mentoring program
+\end{rSubsection}
+% Membership
+\begin{rSubsection}{Membership}
+The Oceanography Society, MPOWIR
+\end{rSubsection}
+\end{rSection}
+
+%-------------------------------------------------------------------
+%	Field Experience
+%-------------------------------------------------------------------
+\begin{rSection}{Field Experience} 
+\item {\bf 2016}: Small boat and kayak-based work observing frontal features, eddy formation and lake dynamics, Palau
+\item {\bf 2015}: {\em ArcticMix}, small scale process-study, {\em R/V Sikuliaq}; Nome to Nome. PIs: Jennifer MacKinnon, Matthew Alford, and John Mickett
+\item {\bf 2014}: {\em La Jolla Internal Tide experiment} (student-run cruise), {\em R/V Sproul}; San Diego to San Diego. Chief Scientist: Madeline Hamman
+\item {\bf 2014}: {\em MoorSPICE}, mooring recovery and reployment cruise, {\em R/V Thomas G. Thompson}; Noumea to Noumea. PIs: Janet Sprintall and Sophie Cravatte
+\item {\bf 2012}: {\em California Current Ecosystem} redeployment cruise, {\em R/V Ocean Starr}; Port Hueneme to Port Hueneme. PI: Uwe Send
+\item {\bf 2011-2012}: Small boat work on Cayuga Lake, Ithaca, NY. Water quality monitoring, deployment and recovery of mooring temperature network, ADCP transects, met station maintenance. PIs: Tod Cowan and Seth Schweitzer
+\end{rSection}
+
+%-------------------------------------------------------------------
+%	SKILLS
+%-------------------------------------------------------------------
+\begin{rSection}{Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming \& Modeling & \href{https://github.com/marionalberty}{Python, MATLAB, git, MITgcm}  \\
+Data Processing & Shipboard and wire walker CTD, SADCP/LADCP \\
+ & moored T/TP/CTD/ADCP \\
+\end{tabular}
+\end{rSection}
+
+%	EXAMPLE SECTION
+%-------------------------------------------------------------------
+% \begin{rSection}{Example} \itemsep -3pt
+% \item Co-Organized “ Nirmitee 2017” - a National Symposium of Civil Department of MIT, Pune
+% \item Attended a workshop on Autodesk Revit at IIT Bombay in 2014.
+% \end{rSection}
+\end{document}
