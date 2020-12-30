@@ -107,6 +107,17 @@
 }
 
 %-------------------------------------------------------------------
+%	Subsection without bullents
+%-------------------------------------------------------------------
+
+\newenvironment{rSubsectionW}[1]{ % 1 input argument - subsection header
+ {\bf #1} % subsection title
+ \smallskip
+  }{
+  \vspace{0.5em} % Some space after the list of bullet points
+}
+
+%-------------------------------------------------------------------
 %	WORK EXPERIENCE FORMATTING
 %-------------------------------------------------------------------
 
